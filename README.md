@@ -1,9 +1,3 @@
-## Gatsbyjs blog starter with 
+## Gatsbyjs Starter Blog with ChakraUI
 
-
-:point_down:
-
-- Gatsbyjs
-- Material UI
-- Netlify Hosting
-- NetlifyCMS
+Start building Blog with Awesome Boilerplate code

@@ -1,54 +1,37 @@
 {
-  "name": "gatsmuinetlify",
+  "name": "vigilant-carnival",
   "private": true,
-  "description": "Gatsbyjs blog starter with material-ui and netlifycms",
+  "description": "Gatsbyjs starter with chakra-ui",
   "version": "0.1.0",
   "license": "0BSD",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"warning: no testfile\" && exit 0"
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
-    "@date-io/date-fns": "1.x",
-    "@date-io/dayjs": "1.x",
-    "@date-io/luxon": "1.x",
-    "@date-io/moment": "1.x",
-    "@material-ui/core": "^4.11.0",
-    "@material-ui/icons": "^4.9.1",
-    "@material-ui/pickers": "^3.2.10",
-    "@material-ui/styles": "^4.10.0",
-    "date-fns": "^2.16.1",
-    "dayjs": "^1.8.35",
-    "fontsource-roboto": "^3.0.3",
-    "gatsby": "^2.24.63",
-    "gatsby-plugin-material-ui": "^2.1.10",
-    "gatsby-plugin-netlify-cms": "^4.3.15",
-    "gatsby-plugin-sharp": "^2.6.36",
-    "gatsby-remark-images": "^3.3.30",
-    "gatsby-remark-relative-images": "^2.0.2",
-    "gatsby-source-filesystem": "^2.3.30",
-    "gatsby-transformer-remark": "^2.8.35",
-    "gh-pages": "^3.1.0",
-    "luxon": "^1.25.0",
-    "moment": "^2.27.0",
-    "netlify-cms-app": "^2.12.25",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "@chakra-ui/gatsby-plugin": "^1.0.2",
+    "@chakra-ui/icons": "^1.0.8",
+    "@chakra-ui/react": "^1.4.2",
+    "@emotion/react": "11",
+    "@emotion/styled": "11",
+    "framer-motion": "4",
+    "gatsby": "^3.1.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
   },
   "devDependencies": {
-    "prettier": "2.1.1"
+    "prettier": "2.2.1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/hkbcode/gatsmuinetlify"
+    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
   },
   "bugs": {
-    "url": "https://github.com/hkbcode/gatsmuinetlify/issues"
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
   }
 }
